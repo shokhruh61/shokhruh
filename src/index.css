@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .bg-grid {
+        background-image: url('/path/to/image.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}

@@ -22,7 +22,7 @@ function App () {
           }
         />
         <Route
-          path='/contact'
+          path='/loyihalar'
           element={
             <MainLayout>
               <Contact />
@@ -30,7 +30,7 @@ function App () {
           }
         />
         <Route
-          path='/about'
+          path='/haqimda'
           element={
             <MainLayout>
               <About />
@@ -38,7 +38,7 @@ function App () {
           }
         />
         <Route
-          path='/services'
+          path='/Blog'
           element={
             <MainLayout>
               <Services />
