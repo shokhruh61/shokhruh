@@ -5,6 +5,7 @@ import MainLayout from './layouts/MainLayout'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import ErrorPage from './pages/ErrorPage'
+import Blog from './pages/Blog'
 
 function App () {
   return (
@@ -34,7 +35,15 @@ function App () {
             </MainLayout>
           }
         />
-
+        <Route
+          path='/blog'
+          element={
+            <MainLayout>
+              <Blog />
+            </MainLayout>
+          }
+        />
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
     </div>
   )

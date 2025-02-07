@@ -2,7 +2,7 @@ import React from 'react'
 
 function About () {
   return (
-    <div className='container max-w-screen-sm mx-auto px-5'>
+    <div className='container max-w-screen-sm mx-auto px-5 mt-40 font-semibold text-lg'>
       <p>
         Ismim Shohruh. Frontend dasturchiman, 2024-yildan buyon dasturlash
         olamida ishlayapman. Dasturlashga qiziqishim 2020-yildan boshlangan va
