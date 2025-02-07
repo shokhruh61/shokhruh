@@ -5,11 +5,7 @@ function Contact () {
   return (
     <div>
       <div className='text-center'>
-        <h3>Yozgan barcha loyhalarimni ko'rmoqchimisiz ???</h3>
-        <p>
-          Sizni hayratda qoldirish uchun tayyorlandim! Lekin avval bir chashka
-          kofe oling ☕, juda qiziq bo'ladi!
-        </p>
+        <p></p>
       </div>
     </div>
   )

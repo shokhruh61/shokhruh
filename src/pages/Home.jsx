@@ -11,19 +11,19 @@ function Home () {
   return (
     <div className='container max-w-screen-lg mx-auto px-5'>
       {/* Profil rasmi va ma'lumotlar */}
-      <div className='flex items-center'>
+      <div className='flex flex-col sm:flex-row items-center'>
         <div>
           <img
-            className='w-[195px] h-[195px] rounded-lg mb-5'
+            className='w-[195px] h-[195px] rounded-lg mb-5 sm:mb-0 sm:w-[250px] sm:h-[250px]'
             src={MyPAge}
             alt='my logo images'
           />
         </div>
-        <div className='ml-5'>
+        <div className='mt-5 sm:mt-0 sm:ml-5 text-center sm:text-left'>
           <h1 className='font-bold text-3xl text-gray-950'>Shohruhbek</h1>
           <h3 className='text-gray-700'>Front end dasturchi</h3>
           {/* Ijtimoiy tarmoqlar */}
-          <div className='flex items-center gap-3 mt-3'>
+          <div className='flex justify-center sm:justify-start gap-3 mt-3'>
             <Link to='https://www.linkedin.com/in/shoxruh-mahmudov/'>
               <img className='w-8 h-8' src={Linkedin} alt='LinkedIn' />
             </Link>
@@ -44,13 +44,13 @@ function Home () {
       </div>
 
       {/* Matn va tugmalar */}
-      <div className='mt-5'>
+      <div className='mt-5 sm:w-[400px] text-center sm:text-left'>
         <p className='mb-5 sm:text-lg animate-slide-top delay-600'>
-          Yillar davomida tinchlik bermagan <strong>muammoni</strong> atiga bir
-          necha qator kod bilan <strong>hal qilishimga</strong> ishonasizmi?
+          Yillar davomida tinchlik bermagan <span className='underline'>muammoni</span> atiga bir
+          necha qator kod bilan <span className='underline'>hal qilishimga</span> ishonasizmi?
         </p>
         {/* Tugmalar */}
-        <div className='flex gap-3'>
+        <div className='flex justify-center sm:justify-start gap-3'>
           <Link
             to='/loyihalar'
             className='bg-gray-900 text-white px-5 py-2 rounded-md'
