@@ -10,7 +10,6 @@ import Rezume from '../assets/images/rezyum.svg'
 function Home () {
   return (
     <div className='container max-w-screen-lg mx-auto px-5'>
-      {/* Profil rasmi va ma'lumotlar */}
       <div className='flex flex-col sm:flex-row items-center'>
         <div>
           <img
@@ -21,16 +20,15 @@ function Home () {
         </div>
         <div className='mt-5 sm:mt-0 sm:ml-5 text-center sm:text-left'>
           <h1 className='font-bold text-3xl text-gray-950'>Shohruhbek</h1>
-          <h3 className='text-gray-700'>Front end dasturchi</h3>
-          {/* Ijtimoiy tarmoqlar */}
+          <h3 className='text-gray-900 font-normal text-2xl '>Front end dasturchi</h3>
           <div className='flex justify-center sm:justify-start gap-3 mt-3'>
             <Link to='https://www.linkedin.com/in/shoxruh-mahmudov/'>
               <img className='w-8 h-8' src={Linkedin} alt='LinkedIn' />
             </Link>
-            <Link to=''>
+            <Link to='https://t.me/@Makhmudov61'>
               <img className='w-8 h-8' src={Telegram} alt='Telegram' />
             </Link>
-            <Link to='mailto:shohruxmahmudov61@gmail.com'>
+            <Link to='https://shohruxmahmudov61@gmail.com'>
               <img className='w-8 h-8' src={Email} alt='Email' />
             </Link>
             <Link to='https://github.com/shokhruh61'>

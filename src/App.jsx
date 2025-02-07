@@ -5,9 +5,6 @@ import MainLayout from './layouts/MainLayout'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import ErrorPage from './pages/ErrorPage'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import Services from './pages/Services'
 
 function App () {
   return (
@@ -37,17 +34,7 @@ function App () {
             </MainLayout>
           }
         />
-        <Route
-          path='/Blog'
-          element={
-            <MainLayout>
-              <Services />
-            </MainLayout>
-          }
-        />
-        <Route path='/Login' element={<Login />}></Route>
-        <Route path='/Register' element={<Register />}></Route>
-        <Route path='*' element={<ErrorPage />} />
+
       </Routes>
     </div>
   )
