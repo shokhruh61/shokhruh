@@ -36,7 +36,7 @@ function Home () {
             <Link to='https://github.com/shokhruh61'>
               <img className='w-8 h-8' src={GitHub} alt='GitHub' />
             </Link>
-            <Link to=''>
+            <Link to='https://docs.google.com/document/d/1RWa6mrnRYecrgffVFCd7LhWLqbq8D6Tar6bEm3X6XNI/edit?usp=sharing'>
               <img className='w-8 h-8' src={Rezume} alt='Rezyume' />
             </Link>
           </div>
@@ -50,7 +50,7 @@ function Home () {
           necha qator kod bilan <span className='underline'>hal qilishimga</span> ishonasizmi?
         </p>
         {/* Tugmalar */}
-        <div className='flex justify-center sm:justify-start gap-3'>
+        <div className='flex justify-center sm:justify-start sm:gap-3'>
           <Link
             to='/loyihalar'
             className='bg-gray-900 text-white px-5 py-2 rounded-md'
